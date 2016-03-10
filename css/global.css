@@ -1,0 +1,53 @@
+.jiwp-clear {clear: both;}
+.jiwp-inlineblock {display: inline-block;}
+.jiwp-block {display: block;}
+.jiwp-resizevertical {resize: vertical;}
+
+/* Headings */
+h1.jiwp-heading {font-size: 1.713em;}	/* 24px */
+h2.jiwp-heading {font-size: 1.571em;}	/* 22px */
+h3.jiwp-heading {font-size: 1.429em;}	/* 20px */
+h4.jiwp-heading {font-size: 1.286em;}	/* 18px */
+h5.jiwp-heading {font-size: 1.143em;}	/* 16px */
+h6.jiwp-heading {font-size: 1em;}	/* 14px */
+h2.jiwp-heading, h3.jiwp-heading, h4.jiwp-heading, h5.jiwp-heading, h6.jiwp-heading {
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: .8em;
+}
+
+/* Font Weight */
+.jiwp-bold {font-weight: bold;}
+.jiwp-bolder {font-weight: bolder; font-size: 18px;}
+
+/* Text Align */
+.jiwp-aligncenter {text-align: center;}
+.jiwp-alignright {text-align: right;}
+.jiwp-alignleft {text-align: left;}
+
+/* Float */
+.jiwp-left {float: left;}
+.jiwp-right {float: right;}
+
+/* Success and Error */
+.jiwp-success {background-color: #CCFF99; border: 1px solid #008000; color: #000305; padding: 5px;}
+.jiwp-error {background-color: #FFEBE8; border: 1px solid #C00; color: #000305; padding: 5px;}
+
+/* Width */
+.jiwp-onecolumn {width: 100%;}
+.jiwp-twocolumns {width: 50%;}
+.jiwp-threecolumns {width: 33.33%;}
+.jiwp-fourcolumns {width: 25%;}
+.jiwp-fivecolumns {width: 20%;}
+.jiwp-sixcolumns {width: 16.66%;}
+.jiwp-sevencolumns {width: 14.28%;}
+.jiwp-eightcolumns {width: 12.5%;}
+.jiwp-ninecolumns {width: 11.11%;}
+.jiwp-tencolumns {width: 10%;}
+
+/* Form */
+form#jiwp_globalform p label {display: inline-block; width: 100%;}
+form#jiwp_globalform p input[type="text"],
+form#jiwp_globalform p input[type="password"],
+form#jiwp_globalform p input[type="email"] {width: 100%;}
+input[type="submit"], input[type="button"] {cursor: pointer;}
