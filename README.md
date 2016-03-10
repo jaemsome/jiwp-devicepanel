@@ -1,0 +1,2 @@
+# jiwp-devicepanel
+WordPress plugin
